@@ -1,0 +1,45 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .product-form, .product-table, .product-chart {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: azure;
+  }
+  
+  .product-form h2, .product-chart h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-table {
+    overflow-x: auto;
+  }
+  
+  .form-actions {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  button.p-button {
+    margin-right: 10px;
+  }
+  .tableData{
+    text-align: center;
+  }
+  .formalignment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+  
